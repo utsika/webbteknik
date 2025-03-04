@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<HTML lang="sv">
+	
+<head>
+	<meta charset="UTF-8">
+	<meta name="author" content="Karolina Utsi">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> Om oss </title>
+	<link rel="stylesheet" type="text/css" media="screen" href="stilmall.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<!-- <div class="bakgrund">
+		<img src="Public/bakgrundmat.png" alt="Bild på mat">
+	</div> -->
+	<div class="menyheader">
+		<nav>
+			<div class="headermeny">
+				<div class="logga">
+					<a href="index.html"><img src="Public/Group 18.png" alt="Restaurangens logga"></a>
+				</div>
+				<ul>
+					<div class="menyval">
+						<li><a href="index.html">Hem</a></li> <!--fixa länkar!!!!!-->
+						<li><a href="meny.html">Meny</a></li>
+						<li><a href="dagenslunch.html">Dagens lunch</a></li>
+						<li><a href="galleri.html">Galleri</a></li>
+						<li><a href="omoss.html">Om oss</a></li>
+					</div>
+				</ul>
+			</div>
+		</nav>
+	</div>
+
+	<div class="container">
+		<div class="info">
+			<div class="kontakt">
+				<p>Kontakta oss</p>
+				<!--kontaktformulär, label - rubrik, input - vad som skrivs in-->
+				<!-- br = byt rad -->
+				<div class="form">
+					<form action="../Webbkod/svar.php" method="post"> <!--hur??? vad är detta för fil???-->
+						<label for="namn">Namn:</label><br>
+						<input type="text" id="namn" name="namn" value="" placeholder="Ditt namn..."><br>
+						<label for="epost">E-post:</label><br>
+						<input type="text" id="epost" name="epost" value="" placeholder="Din e-post..."><br>
+						<label for="problem">Ämne:</label><br>
+						<textarea id="problem" name="problem" placeholder="Skriv något..."></textarea><br><br>
+						<input type="submit" value="Skicka">
+					</form> 
+				</div> 
+			</div>
+			<div class="hitta">
+				<p>Ålidhems centrum</p>
+				<p>Ekonomistråket 1</p>
+				<p>907 30, Umeå</p>
+				<p>Telefon: 090-19 55 55</p>
+				<a href="https://www.google.com/maps/place/%C3%85lidhem+Sushi+Bar/@63.8123486,20.3123416,17z/data=!3m1!4b1!4m6!3m5!1s0x467c5af82e390dd7:0x98c14bc648f58b50!8m2!3d63.8123463!4d20.3149165!16s%2Fg%2F11cnqb7wfv?entry=ttu&g_ep=EgoyMDI1MDIxOC4wIKXMDSoASAFQAw%3D%3D">
+					Hitta oss här!
+				</a>
+			</div>
+			<div class="hittakarta">
+				<img src="Public/karta3.png" alt="Karta till restaurangen">
+			</div>
+		</div>
+	</div>
+</body>
