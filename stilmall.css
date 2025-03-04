@@ -188,7 +188,7 @@ img {
 /* --------------------------------------MENYSIDA-------------------------------------------- */
 
 .container {
-	max-width: 1350px;
+	max-width: 70vw;
 	margin: 0 auto;
 	padding-bottom: 10vh;
 }
@@ -259,26 +259,26 @@ img {
 }
 
 .nummer {
-	font-size: 20px;
+	font-size: 16pt;
     font-weight: bold;
 	line-height: 0.8;
 }
 
 .namn {
-    font-size: 20px;
+    font-size: 16pt;
     font-weight: bold;
 	line-height: 0.8;
 }
 
 .beskrivning {
-    font-size: 16px;
+    font-size: 14pt;
 	line-height: 1;
 	margin: 0;
 }
 
 h2 {
 	text-align: center;
-	font-size: 24px;
+	font-size: 17pt;
 	margin: 0;
 	padding: 0;
 	padding-top: 5vh;
@@ -292,7 +292,7 @@ h2:hover {
 
 h5 {
 	text-align: center;
-	font-size: 24px;
+	font-size: 17pt;
 	margin: 0;
 	padding: 0;
 	padding-top: 5vh;
@@ -310,7 +310,7 @@ summary::marker {
 
 .extrastyck table{
 	text-align: center;
-	font-size: 20px;
+	font-size: 16pt;
     font-weight: bold;
 	margin: 0;
 	padding: 0;
@@ -319,7 +319,7 @@ summary::marker {
 
 h3 {
 	text-align: center;
-	font-size: 28px;
+	font-size: 18pt;
 }
 
 /* --------------------------------------DAGENS LUCNH------------------------------------- */
@@ -379,7 +379,7 @@ h3 {
 	
 .hitta { 
 	grid-area: 1 / 2 / 2 / 3; 
-	font-size: 24px;
+	font-size: 17pt;
 	line-height: 1;
 	padding-left: 2vw;
 }
@@ -394,12 +394,12 @@ h3 {
 
 .kontakt {
 	grid-area: 1 / 1 / 2 / 2;
-	font-size: 24px;
+	font-size: 17pt;
 	padding-left: 2vw;
 }
 
 .form {
-	font-size: 20px;
+	font-size: 16pt;
 }
 
 input[type="text"] {
