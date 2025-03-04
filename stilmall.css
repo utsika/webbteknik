@@ -259,19 +259,19 @@ img {
 }
 
 .nummer {
-	font-size: 16pt;
+	font-size: 14pt;
     font-weight: bold;
 	line-height: 0.8;
 }
 
 .namn {
-    font-size: 16pt;
+    font-size: 10pt;
     font-weight: bold;
 	line-height: 0.8;
 }
 
 .beskrivning {
-    font-size: 14pt;
+    font-size: 10pt;
 	line-height: 1;
 	margin: 0;
 }
