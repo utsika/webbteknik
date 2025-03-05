@@ -436,7 +436,7 @@ textarea {
 
 /* ------------------------------------MEDIA QUERIES------------------------------------ */
 
-@media (max-width: 1270px) {
+@media (max-width: 1000px) {
     .meny-grid {
 		/* Gör om griden till en kolumn istället för tre */
         grid-template-columns: repeat(1, 1fr);
@@ -444,19 +444,7 @@ textarea {
     }
 
 	/* Tar bort linjerna */
-	.linje {
-		display: none;
-	}
-
-	.linje2 {
-		display: none;
-	}
-
-	.linje3 {
-		display: none;
-	}
-
-	.linje4 {
+	.linje , .linje2, .linje3, .linje4, .linje5, .linje6{
 		display: none;
 	}
 }
