@@ -458,7 +458,7 @@ textarea {
 	}
 
 	.meny-grid {
-		/* gör om griden till en kolumn istället för tre */
+		/* Gör om griden till två kolumner istället för tre */
         grid-template-columns: repeat(2, 1fr);
 		text-align: left;
     }
